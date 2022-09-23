@@ -34,7 +34,7 @@ p {
   display: flex;
   align-items: center;
   background-color: #1976d2;
-  color: white;
+  color: #fafafa;
   font-weight: 600;
 }
 
@@ -127,7 +127,7 @@ svg.material-icons:not(:last-child) {
 
 .card.highlight-card {
   background-color: #1976d2;
-  color: white;
+  color: #fafafa;
   font-weight: 600;
   border: none;
   width: auto;

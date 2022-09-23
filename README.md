@@ -1,13 +1,19 @@
-Angular App Exercise
+# Angular App Exercise
 
-To install the package run
+Install the dependencies and devDependencies.
 
+```sh
 npm i
+```
 
 To start the server run
 
+```sh
 npm run json:server
+```
 
 To start the project run
 
-ng serve
+```sh
+npm run start
+```

@@ -12,14 +12,12 @@ export class VideoComponentComponent {
   constructor(private router: Router, private sanitizer: DomSanitizer) {
     this.meetingData =
       this.router?.getCurrentNavigation()?.extras?.state?.['meetingVideoData'];
-    console.log('meetingData', this.meetingData);
   }
 
   getSanitizedURL() {
-    const url = this.sanitizer.bypassSecurityTrustResourceUrl(
+    const sanitizedUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
       this.meetingData.videoUrl
     );
-    console.log(url);
-    return url;
+    return sanitizedUrl;
   }
 }

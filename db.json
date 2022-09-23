@@ -1,0 +1,52 @@
+{
+  "meetingData": [
+    {
+      "meetingName": "Some name",
+      "length": 2004,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/izGwDsrQ1eQ"
+    },
+    {
+      "meetingName": "Some name",
+      "length": 2004,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "meetingName": "Some name",
+      "length": 2004,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "meetingName": "Some name stupidly long name name name name name name ",
+      "length": 2004,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "meetingName": "Some name with special charãcters",
+      "length": 5526,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    },
+    {
+      "meetingName": "Some really really long name",
+      "length": 2004,
+      "nrOfParticipants": 5,
+      "score": 65,
+      "date": 1659609674,
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
+    }
+  ]
+}

@@ -4,13 +4,14 @@ import * as moment from 'moment';
 import { Router } from '@angular/router';
 import { meetingDataService } from '../meetingData.service';
 export type IElementData = {
+  id: string;
   meetingName: string;
   length: number;
   nrOfParticipants: number;
   score: number;
   date: number;
   videoUrl: string;
-}[];
+};
 
 @Component({
   selector: 'app-data-table',
@@ -18,7 +19,7 @@ export type IElementData = {
   styleUrls: ['./data-table.component.css'],
 })
 export class TableBasicExample {
-  public posts: any;
+  public posts: IElementData[] | undefined;
 
   constructor(private router: Router, private service: meetingDataService) {}
 
@@ -53,13 +54,13 @@ export class TableBasicExample {
   ];
   ngOnInit() {
     this.service.getMeetingsDetail().subscribe((response) => {
-      this.posts = response;
+      this.posts = response as IElementData[];
     });
   }
 
   displayMeetingVideo(data: IElementData) {
-    this.router.navigateByUrl('/meeting', {
-      state: { meetingVideoData: data },
+    this.router.navigate(['/meeting'], {
+      queryParams: { id: data.id },
     });
   }
 

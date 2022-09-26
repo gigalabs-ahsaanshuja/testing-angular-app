@@ -1,6 +1,7 @@
 {
   "meetingData": [
     {
+      "id": 1,
       "meetingName": "Some name",
       "length": 2004,
       "nrOfParticipants": 5,
@@ -9,6 +10,7 @@
       "videoUrl": "https://www.youtube.com/embed/izGwDsrQ1eQ"
     },
     {
+      "id": 2,
       "meetingName": "Some name",
       "length": 2004,
       "nrOfParticipants": 5,
@@ -17,6 +19,7 @@
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
+      "id": 3,
       "meetingName": "Some name",
       "length": 2004,
       "nrOfParticipants": 5,
@@ -25,6 +28,7 @@
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
+      "id": 4,
       "meetingName": "Some name stupidly long name name name name name name ",
       "length": 2004,
       "nrOfParticipants": 5,
@@ -33,6 +37,7 @@
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
+      "id": 5,
       "meetingName": "Some name with special charãcters",
       "length": 5526,
       "nrOfParticipants": 5,
@@ -41,6 +46,7 @@
       "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ"
     },
     {
+      "id": 6,
       "meetingName": "Some really really long name",
       "length": 2004,
       "nrOfParticipants": 5,

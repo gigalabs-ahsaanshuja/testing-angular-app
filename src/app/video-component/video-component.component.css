@@ -1,0 +1,9 @@
+.backButton {
+  display: flex;
+  align-items: center;
+}
+
+.cardContainer {
+  margin: auto;
+  width: 60%;
+}

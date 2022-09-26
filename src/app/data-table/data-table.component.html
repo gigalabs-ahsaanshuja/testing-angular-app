@@ -4,13 +4,18 @@
       *ngFor="let column of displayedColumns"
       [matColumnDef]="column.title"
     >
-      <th mat-header-cell *matHeaderCellDef class="tableHeadings">
+      <th
+        mat-header-cell
+        [ngClass]="{ centerText: column.key !== 'meetingName' }"
+        *matHeaderCellDef
+        class="tableHeadings"
+      >
         {{ column.title }}
       </th>
 
       <td
         mat-cell
-        [ngClass]="{ centerText: column.key === 'nrOfParticipants' }"
+        [ngClass]="{ centerText: column.key !== 'meetingName' }"
         *matCellDef="let element"
       >
         {{

@@ -6,3 +6,9 @@ table {
   margin: auto;
   width: 90%;
 }
+
+.tableHeadings {
+  font-weight: bolder;
+  color: black;
+  font-size: 14px;
+}

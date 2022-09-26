@@ -12,3 +12,7 @@ table {
   color: black;
   font-size: 14px;
 }
+
+.centerText {
+  text-align: center;
+}
